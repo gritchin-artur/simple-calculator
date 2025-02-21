@@ -1,6 +1,6 @@
 # Simple Calculator
 
-![Calculator Preview](./img/simple-calculator.png)
+![Calculator Preview](./planning/img/simple-calculator.png)
 
 ## Table of Contents
 
