@@ -1,7 +1,10 @@
-# How to Plan
+# Simple Calculator
 
-- [How to Plan](#how-to-plan)
-  - [Brainstorming# Calculator App](#brainstorming-calculator-app)
+![Calculator Preview](./img/simple-calculator.png)
+
+## Table of Contents
+
+- [Simple Calculator](#simple-calculator)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -21,26 +24,11 @@
 
 ---
 
-## Brainstorming# Calculator App
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Planning](#planning)
-7. [Contributing](#contributing)
-8. [License](#license)
-
----
-
 ## Introduction
 
 This is a simple calculator web application that allows users to perform basic
- arithmetic operations such as addition, subtraction, multiplication, and
- division. The project follows an organized development strategy to ensure a
+arithmetic operations such as addition, subtraction, multiplication, and
+division. The project follows an organized development strategy to ensure a
 smooth and structured implementation.
 
 ---
