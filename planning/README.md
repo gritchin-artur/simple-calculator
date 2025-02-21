@@ -1,160 +1,134 @@
-# Simple Calculator
+# How to Plan
 
-![Calculator Preview](./img/simple-calculator.png)
-
-## Table of Contents
-
-- [Simple Calculator](#simple-calculator)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Planning](#planning)
-    - [1. Brainstorming](#1-brainstorming)
-    - [2. Prioritizing](#2-prioritizing)
-    - [3. User Story Dependencies](#3-user-story-dependencies)
-    - [4. Acceptance Criteria](#4-acceptance-criteria)
-    - [5. Defining Tasks](#5-defining-tasks)
-    - [6. Project Board](#6-project-board)
-    - [7. Sprinting and Reviewing](#7-sprinting-and-reviewing)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [How to Plan](#how-to-plan)
+  - [Brainstorming](#brainstorming)
+  - [Prioritizing](#prioritizing)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [User Story Dependencies](#user-story-dependencies)
+  - [Defining Tasks](#defining-tasks)
+  - [Project Board](#project-board)
+  - [Sprinting and Reviewing](#sprinting-and-reviewing)
 
 ---
 
-## Introduction
-
-This is a simple calculator web application that allows users to perform basic
-arithmetic operations such as addition, subtraction, multiplication, and
-division. The project follows an organized development strategy to ensure a
-smooth and structured implementation.
-
----
-
-## Features
-
-- Basic arithmetic operations (+, -, \*, /)
-- Reset button (AC) to clear the display
-- Interactive UI with button-based input
-- Error handling for invalid operations
-- Dynamic updating of the display
-
----
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-
-   ```sh
-   git clone https://github.com/gritchin-artur/simple-calculator.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```sh
-   cd simple-calculator
-   ```
-
-3. Open the `index.html` file in your browser or use Live Server in VS Code.
-
----
-
-## Usage
-
-1. Click on the numeric buttons to enter numbers.
-2. Use the arithmetic buttons (+, -, \*, /) for calculations.
-3. Click `=` to evaluate the expression.
-4. Click `AC` to clear the display.
-
----
-
-## Planning
-
-This project follows a structured planning approach:
-
-### 1. Brainstorming
-
-- The app provides a simple and interactive way to perform arithmetic calculations.
-- The target users are anyone who needs a basic calculator.
-
-### 2. Prioritizing
-
-- The core functionality (basic arithmetic) is the highest priority.
-- UI/UX improvements and additional features (such as history tracking) can
-  be considered for future updates.
-
-### 3. User Story Dependencies
-
-- Number input must work before implementing calculations.
-- The display must update dynamically as users interact with the calculator.
-
-### 4. Acceptance Criteria
-
-- Users can input numbers and operators.
-- The calculator correctly evaluates expressions.
-- The `AC` button clears the display.
-- Invalid operations return an error message.
-
-### 5. Defining Tasks
-
-- Implement number and operator buttons.
-- Create a function to process user inputs.
-- Update the UI dynamically.
-- Implement error handling.
-
-### 6. Project Board
-
-- A project board is used to track tasks and issues.
-
-### 7. Sprinting and Reviewing
-
-- The development is divided into manageable tasks to ensure efficient progress.
-
----
-
-## Contributing
-
-Contributions are welcome! If you’d like to improve this project:
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```sh
-   git checkout -b feature-branch
-   ```
-
-3. Make your changes and commit:
-
-   ```sh
-   git commit -m "Add new feature"
-   ```
-
-4. Push to the branch:
-
-   ```sh
-   git push origin feature-branch
-   ```
-
-5. Open a Pull Request.
-
----
-
-## License
-
-This project is open-source and available under the MIT License.
+## Brainstorming
 
 > - What user needs and business problem does this app cover?
 > - Who is the user?
 > - What is the business?
+
+---
+
+## Prioritizing
+
+> How to decide which stories to focus on.
+
+At this stage in planning your team will decide which stories are more aor less
+important. You will be writing your ideas into a _backlog_.
+
+- [Many Strategies](https://zapier.com/blog/how-to-prioritize)
+- The Priority Quadrant
+  - [The Quadrant](https://www.youtube.com/watch?v=NGvsxPOmWuw)
+  - [Problems with this method](https://www.linkedin.com/pulse/why-prioritization-impacteffort-doesnt-work-itamar-gilad)
+- Other Perspectives
+  - [Alex Ponomarev](https://medium.com/swlh/prioritizing-user-stories-in-agile-projects-d1dd8dd79165)
+  - [Michael Lant](https://michaellant.com/2010/05/21/how-to-easily-prioritize-your-agile-stories/)
+
+---
+
+## Acceptance Criteria
+
+> How you'll know when a story is finished.
+
+Now that you have an idea what the project will eventually be like, it's time to
+get specific. Acceptance criteria are a way to scope and verify your user
+stories.
+
+> Given [context] when [a specific action is performed] then [a set of > > > > >
+>
+> > consequences should occur]
+
+You can write your first-draft acceptance criteria in your backlog, later moving
+them under each user story in your `development-strategy.md`, and ultimately
+creating a checklist in each issue.
+
+- [Yodiz](https://www.yodiz.com/blog/user-stories-acceptance-definition-and-criteria-in-agile-methodologies/)
+- [Zepel](https://zepel.io/agile/acceptance-criteria-for-user-stories/)
+- [Ruby Garage](https://rubygarage.org/blog/clear-acceptance-criteria-and-why-its-important)
+- [The Infinity Project](https://www.youtube.com/watch?v=KYS0ptJ4JWc)
+  1. User Input / User Action
+  2. Process
+  3. Results
+
+---
+
+## User Story Dependencies
+
+> How to plan your development schedule.
+
+Some user stories depend on each other, some do not. Figuring out these
+relationships will make it possible go from a disorganized backlog to an
+organized development strategy.
+
+Understanding these dependencies can also allow you to develop much more
+efficiently. You can develope user stories that do not depend on each other in
+parallel instead of waiting for one to finish before moving on the next.
+
+Here are some questions you can ask yourself to help understand your project:
+
+- Do I need _A_ in order to be able to build _B_?
+- Can the user do B without A being available?
+
+A nice way to visualize these relationships is by creating a graph to visually
+represent dependencies:
+
+- [a quiz app](https://excalidraw.com/#json=5248906938023936,dnJz0Qy9tk5M4ho-RUiqYQ)
+- [a portfolio example](https://github.com/elewa-student/User-Centered-Development#story-dependencies)
+
+[Excalidraw](https://excalidraw.com/) is a great tool for collaboratively
+writing these diagrams.
+
+---
+
+## Defining Tasks
+
+> How to break the story into coding tasks.
+
+Answering these questions is a way to break down complex user stories and to
+determine what code is needed. Following this questions guide will help you fill
+in the specifications of each step in your `development-strategy.md`
+
+Handlers are the glue of your user stories. Understanding your answers to these
+questions will not only help you decide which tasks to develop, but can be used
+to plan the details of the user story's handler:
+
+1. **User Story Objectives**
+   1. _... ?_
+2. **User Flow ?**
+   1. _... ?_
+3. **Wireframes ?**
+   1. _... ?_
+
+- [Lars Bilde](https://www.youtube.com/watch?v=gZ4uLafsxAk)
+- [Christiaan Verwijs](https://medium.com/the-liberators/10-powerful-strategies-for-breaking-down-user-stories-in-scrum-with-cheatsheet-2cd9aae7d0eb)
+
+---
+
+## Project Board
+
+> How to manage your team's project
+
+Convert your development strategy into milestones (user stories), issues, labels
+and a project board. When you create the milestones for your user stories, you
+can include the _acceptance criteria_ as a checklist in the milestone's
+description.
+
+This isn't a permanent thing! You can always adjust the project board and
+development strategy as the project evolves; adding issues, removing issues,
+adjusting tasks ... whatever is necessary to make the project go smoothly.
+
+---
+
+## Sprinting and Reviewing
+
+The fun part, writing code and closing issues ;)
