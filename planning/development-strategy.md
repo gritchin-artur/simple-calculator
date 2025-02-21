@@ -1,55 +1,23 @@
-# Project Name
-
-<!-- describe your project -->
+# Simple Calculator
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new template
+- Protect the main branch
+- Create issues
+- Clone the repo to a local machine
+- Create branches for each issue
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+### Main page
 
-## user story
+This feature develop on a branch `index.html`
 
-<!-- each issue created from this section will have the `for: user story` label -->
+#### HTML
 
-> "as a ... i can ... so that ..."
-
-<!-- write any extra notes or description -->
-
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
-
-### Logic: user story
-
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interface: user story
-
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Interaction: user story
-
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
-
-### Documentation: user story
-
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- Add div id=`calculator-container`
+- Add div id=`calculator-display` to div id=`calculator-container`
+- Add div id=`calculator-btn-module` to div id=`calculator-container`
