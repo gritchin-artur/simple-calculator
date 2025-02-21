@@ -1,17 +1,7 @@
 # Design
 
-## Project's design overview
-
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+<https://excalidraw.com/#json=GlnkobgLhrEf8gcQL8mQC,qAMLJDszQD_xJz6bYQIHpA>
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![website-design](./img/my-portfolio-img.png)
